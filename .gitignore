@@ -1,0 +1,25 @@
+
+# Credenciais e variáveis de ambiente
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Configurações locais do editor
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ambientes virtuais Python
+.venv/
+venv/
+__pycache__/
